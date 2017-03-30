@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            style=" @style/FormItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/cPacienteNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style=" @style/FormItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apellido"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/cPacienteApellido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style=" @style/FormItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cedula"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/cPacienteCedula"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style=" @style/FormItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fechaNacimiento"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/cPacienteDia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:hint="DD"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/cPacienteMes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:hint="MM"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/cPacienteAnio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:hint="YYYY"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style=" @style/FormItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/direccion"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/cPacienteDireccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style=" @style/FormItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telefono"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/cPacienteTelefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style=" @style/FormItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="email"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/cPacienteEmail"
+                android:inputType="textWebEmailAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <Spinner
+            android:id="@+id/cPacienteEntSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+        />
+
+        <Button
+            android:id="@+id/cPacienteBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/crear"
+            android:layout_gravity="center"
+            android:textSize="26dp"
+            />
+    </LinearLayout>
+</ScrollView>
