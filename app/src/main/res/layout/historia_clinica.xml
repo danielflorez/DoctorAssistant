@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            style=" @style/FormItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/MC"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/hcMC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style=" @style/FormItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EA"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/hcEA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style=" @style/FormItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ANTECEDENTES"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/hcANTE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style=" @style/FormItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PAT"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/hcPAT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style=" @style/FormItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/FARMA"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/hcFARMA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style=" @style/FormItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TA"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/hcTA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style=" @style/FormItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/QX"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/hcQX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style=" @style/FormItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/GO"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/hcGO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style=" @style/FormItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/OTROS"
+                />
+            <EditText
+                style=" @style/FormText.Editable"
+                android:id="@+id/hcOTROS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/hcGrabar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Grabar"
+            android:layout_gravity="center"
+            android:textSize="26dp"
+            />
+    </LinearLayout>
+</ScrollView>

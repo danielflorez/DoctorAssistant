@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mangostatecnologia.doctorassistant" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:name="com.mangostatecnologia.doctorassistant.GlobalClass"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mainMenu"></activity>
+        <activity android:name=".registerFragment"></activity>
+        <activity android:name=".agendaGrid"></activity>
+        <activity android:name=".dayGrid"></activity>
+        <activity android:name=".crearConsultorio"></activity>
+        <activity android:name=".consultorioList"></activity>
+        <activity android:name=".updateConsultorio"></activity>
+        <activity android:name=".pacienteList"></activity>
+        <activity android:name=".crearPaciente"></activity>
+        <activity android:name=".updatePaciente"></activity>
+        <activity android:name=".entidadList"></activity>
+        <activity android:name=".procedimientoList"></activity>
+        <activity android:name=".crearProcedimiento"></activity>
+        <activity android:name=".updateProcedimiento"></activity>
+        <activity android:name=".precioProcList"></activity>
+        <activity android:name=".crearCita"></activity>
+        <activity android:name=".resulCitaTabs"></activity>
+
+    </application>
+
+</manifest>

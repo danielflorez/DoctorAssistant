@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/agenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agenda"
+        android:layout_gravity="center_horizontal"
+    />
+    <Button
+        android:id="@+id/crearConsultorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consultorios"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/pacientesMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pacientes"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/entidadesMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entidades"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/procedimientosMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Procedimientos"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

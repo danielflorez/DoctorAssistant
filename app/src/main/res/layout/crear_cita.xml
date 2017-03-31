@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/cCitaDesText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Descripcion"
+        android:textSize="24dp"/>
+    <Button
+        android:id="@+id/cCitaSelPacButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selPaciente"
+        />
+    <Button
+        android:id="@+id/cCitaSelProcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selProcedimiento"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/cCitaHoraInicioText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora Inicio: 00:00"
+            android:textSize="24dp"/>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+            <Button
+                android:id="@+id/horaIniArrButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/flecharriba"
+               />
+            <Button
+                android:id="@+id/horaIniAbjButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/flechabajo"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/cCitaHoraFinText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora Fin: 00:00"
+            android:textSize="24dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+            <Button
+                android:id="@+id/horaFinArrButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/flecharriba"/>
+            <Button
+                android:id="@+id/horaFinAbjButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/flechabajo"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/cCitaResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultadoCita"/>
+    <Button
+        android:id="@+id/cCitaGrabar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Grabar"/>
+</LinearLayout>

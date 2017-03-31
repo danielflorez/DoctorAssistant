@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style=" @style/FormItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Subjetivo"
+            />
+        <EditText
+            style=" @style/FormText.Editable"
+            android:id="@+id/conSubText"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style=" @style/FormItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Objetivo"
+            />
+        <EditText
+            style=" @style/FormText.Editable"
+            android:id="@+id/conObjText"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style=" @style/FormItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Analisis"
+            />
+        <EditText
+            style=" @style/FormText.Editable"
+            android:id="@+id/conAnaText"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        style=" @style/FormItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Tratamiento"
+            />
+        <EditText
+            style=" @style/FormText.Editable"
+            android:id="@+id/conTraText"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            />
+
+    </LinearLayout>
+</LinearLayout>

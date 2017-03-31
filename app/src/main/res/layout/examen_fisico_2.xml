@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   N       A      N/A  "/>
+
+            </LinearLayout>
+            <LinearLayout
+                style=" @style/FormItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Cabeza"
+                    android:layout_weight="100"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkCabN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkCabA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkCabNA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <EditText
+                android:id="@+id/ef2CabText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                style=" @style/FormItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Cardiopulmonar"
+                    android:layout_weight="100"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkCarN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkCarA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkCarNA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <EditText
+                android:id="@+id/ef2CarText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                style=" @style/FormItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Abdomen"
+                    android:layout_weight="100"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkAbdN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkAbdA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkAbdNA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <EditText
+                android:id="@+id/ef2AbdText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                style=" @style/FormItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Genital"
+                    android:layout_weight="100"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkGenN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkGenA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkGenNA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <EditText
+                android:id="@+id/ef2GenText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                style=" @style/FormItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Piel"
+                    android:layout_weight="100"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkPielN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkPielA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkPielNA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <EditText
+                android:id="@+id/ef2PielText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                style=" @style/FormItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Extremidades"
+                    android:layout_weight="100"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkExtN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkExtA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkExtNA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <EditText
+                android:id="@+id/ef2ExtText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                style=" @style/FormItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Neurologico"
+                    android:layout_weight="100"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkNeuN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkNeuA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <CheckBox
+                    android:id="@+id/ef2ChkNeuNA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <EditText
+                android:id="@+id/ef2NeuText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>

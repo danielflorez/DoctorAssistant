@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MedicalAssistant</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="usuario">Usuario:</string>
+    <string name="clave">Contraseña:</string>
+    <string name="confirmarClave">Confirmar Contraseña:</string>
+    <string name="login">Ingresar</string>
+    <string name="register">Registrarse</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="cedula">Cedula</string>
+    <string name="telefono">Telefono</string>
+    <string name="direccion">Direccion</string>
+    <string name="crear">Crear</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="fechaNacimiento">Fecha Nacimiento</string>
+    <string name="busquedaPaciente">Buscar Pacientes....</string>
+    <string name="preciosXEntidad">Seleccione precios por entidad</string>
+    <string name="Grabar">Grabar</string>
+    <string name="selPaciente">Seleccionar Paciente</string>
+    <string name="selProcedimiento">Seleccionar Procedimiento</string>
+    <string name="ResultadoCita">Resultado Cita</string>
+    <string name="MC">MC</string>
+    <string name="EA">EA</string>
+    <string name="ANTECEDENTES">ANTECEDENTES</string>
+    <string name="PAT">PAT</string>
+    <string name="FARMA">FARMA</string>
+    <string name="TA">T/A</string>
+    <string name="QX">QX</string>
+    <string name="GO">G/O</string>
+    <string name="OTROS">OTROS</string>
+    <string name="TADIA">T.A. Diastolica:</string>
+    <string name="Sistolica">  Sistolica:</string>
+    <string name="FRECardiaca">Frecuencia cardiaca:</string>
+    <string name="FRERESP">Frecuencia respiratoria:</string>
+    <string name="PESO">Peso en kg:</string>
+    <string name="Talla">Talla en cm:</string>
+    <string name="IMC">Indice masa corporal:</string>
+    <string name="Cabeza">Cabeza y Cuello</string>
+    <string name="Cardiopulmonar">Cardiopulmonar</string>
+    <string name="Abdomen">Abdomen</string>
+    <string name="Genital">Genital</string>
+    <string name="Piel">Piel</string>
+    <string name="Extremidades">Extremidades</string>
+    <string name="Neurologico">Neurologico</string>
+    <string name="Subjetivo">Subjetivo</string>
+    <string name="Objetivo">Objetivo</string>
+    <string name="Analisis">Analisis</string>
+    <string name="Tratamiento">Tratamiento</string>
+
+
+</resources>
